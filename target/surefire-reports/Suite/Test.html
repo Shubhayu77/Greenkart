@@ -1,0 +1,264 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>37/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jun 06 17:03:40 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>122 seconds (122769 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Brocolli, 1 Kg, 120</td>
+<td></td>
+<td>2</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Nuts Mixture, 1 Kg, 950</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Orange, 1 Kg, 75</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Onion, 1 Kg, 16</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase1()'><b>testcase1</b><br>Test class: Project.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Pomegranate, 1 Kg, 95</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Raspberry, 1/4 Kg, 160</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase5()'><b>testcase5</b><br>Test class: Project.HomePageTest</td>
+<td></td>
+<td>2</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase6()'><b>testcase6</b><br>Test class: Project.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Banana, 1 Kg, 45</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase8()'><b>testcase8</b><br>Test class: Project.HomePageTest</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Cashews, 1 Kg, 650</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase2()'><b>testcase2</b><br>Test class: Project.HomePageTest</td>
+<td></td>
+<td>3</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Beans, 1 Kg, 82</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Cucumber, 1 Kg, 48</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Brinjal, 1 Kg, 35</td>
+<td></td>
+<td>2</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Pears, 1 Kg, 69</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Apple, 1 Kg, 72</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Capsicum, 1 Kg, 60</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Beetroot, 1 Kg, 32</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Grapes, 1 Kg, 60</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Pista, 1/4 Kg, 190</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Carrot, 1 Kg, 56</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Tomato, 1 Kg, 16</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Strawberry, 1/4 Kg, 180</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Mango, 1 Kg, 75</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Water Melon, 1 Kg, 28</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase4()'><b>testcase4</b><br>Test class: Project.HomePageTest</td>
+<td></td>
+<td>44</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Corn, 1 Kg, 75</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase7()'><b>testcase7</b><br>Test class: Project.HomePageTest</td>
+<td></td>
+<td>3</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Potato, 1 Kg, 22</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Mushroom, 1 Kg, 75</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Musk Melon, 1 Kg, 36</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Almonds, 1/4 Kg, 200</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Walnuts, 1/4 Kg, 170</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Cauliflower, 1 Kg, 60</td>
+<td></td>
+<td>2</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+<tr>
+<td title='Project.HomePageTest.testcase3()'><b>testcase3</b><br>Test class: Project.HomePageTest<br>Parameters: Pumpkin, 1 Kg, 48</td>
+<td></td>
+<td>1</td>
+<td>Project.HomePageTest@1f010bf0</td></tr>
+</table><p>
+</body>
+</html>
